@@ -5,7 +5,7 @@ import _ from "lodash";
 
 
 render(<App />, document.getElementById('root'));
-
+ 
 function checkOverlap(l1,r1,l2,r2){
   //console.log(l1.x,l1.y,r1.x,r1.y,l2.x,l2.y,r2.x,r2.y)
    // If one rectangle is on left side of other 
